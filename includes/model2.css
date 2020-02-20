@@ -1,0 +1,96 @@
+#header{
+		width: 102%;
+		height: 5%;
+		background-color: maroon;
+		margin-left:-10px;
+		margin-top: -8px; 		
+}
+#judul{
+		color: white;
+		font-size: 25px;
+		font-weight: 24px;
+		font-family: 'Laila Medium';
+		margin-left: 11px;
+		margin-bottom: 9px;
+		position: absolute;
+		font-variant: small-caps;
+
+}
+#judul2{
+		color: white;
+		text-align: center; 
+		font-size: 25px;
+		font-weight: 24px;
+		font-family: 'Laila Medium';
+		font-variant: small-caps;
+}
+#kiri{
+		position: auto;
+		float: left;
+		border: 5px groove red;
+		width: 20%;
+		height: 900px;
+		margin-top:0px;
+		margin-bottom: auto; 
+		background-color:gold;
+		border-radius: 20px;	
+		
+}
+#kanan{
+		float: right; 
+		position: auto;
+		margin-left:20px; margin-top: 0px; margin-bottom: auto;width: 75%;height: 900px;border: 5px groove red ;
+		background-color:gold; border-radius:20px; 
+		
+}
+#footer{
+	position: fixed;
+	height:5%;
+	width: 100%;
+	background-color: maroon;
+	left: 0px;
+	bottom: -8px; 
+	padding-bottom: 0px;
+}
+.tombol{
+	background-color: red; color: white; border: 2px dotted black; 
+	cursor: pointer; border-radius: 30px;
+}
+.tombol2{
+	background-color: blue; color: white; border: 2px dotted black; 
+	cursor: pointer; border-radius: 30px;
+}
+#login{
+	width: 270px;
+	height: 165px;
+	border: 10px groove #00ff00;
+	border-radius: 15px; margin:45px auto; 
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#submenu h3{
+	background-color: maroon; color:white; cursor: pointer;
+	margin-bottom: -5px;
+}
+#submenu ul li{
+	margin-left: -10px;
+	list-style-image:url(../images/star.png);
+	/**list-style-image:url(../images/BBM.png); */  /**membuat list menjadi bergambar*//
+
+}
+#user_login{
+	margin-left:10px; margin-top: 5px;
+ 
+ }
+ .content{
+	padding-left: 15px;
+}
+.content h3{
+	font-size: 30px; border-bottom: 10px groove red;
+}
+.content table{
+	border: 1px inset grey; border-collapse: collapse;margin-right: 15px;
+}
+.content table tr th{
+	background-color: red; color:white;
+} 
